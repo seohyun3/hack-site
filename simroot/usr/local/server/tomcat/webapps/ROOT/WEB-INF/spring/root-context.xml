@@ -1,0 +1,5 @@
+<beans>
+  <bean id="encryptor" class="org.jasypt.encryption.pbe.StandardPBEStringEncryptor">
+    <property name="algorithm" value="PBEWithMD5AndDES" />
+  </bean>
+</beans>

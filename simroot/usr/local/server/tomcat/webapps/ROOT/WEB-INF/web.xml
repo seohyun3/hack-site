@@ -1,0 +1,4 @@
+<web-app>
+  <display-name>VulnLab Finance</display-name>
+  <context-param>classpath:dbinfo.properties</context-param>
+</web-app>
