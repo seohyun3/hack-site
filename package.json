@@ -12,6 +12,7 @@
   "description": "Vuln0Lab - Web Vulnerability Training Platform",
   "dependencies": {
     "cookie-parser": "^1.4.7",
+    "docx": "^9.6.1",
     "dotenv": "^16.4.5",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",

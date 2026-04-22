@@ -380,7 +380,7 @@ document.getElementById('setup-btn').addEventListener('click', function() {
   fetch('/setup/run', { method: 'POST' })
     .then(function(resp) { return resp.json(); })
     .then(function(data) {
-      result.textContent = data.ok ? '✅ 초기화 완료!\n' + data.message : '❌ 오류:\n' + data.error;
+      result.textContent = data.ok ? '✅ 초기화 완료!\\n' + data.message : '❌ 오류:\\n' + data.error;
       btn.disabled = false;
       btn.textContent = 'DB 초기화 실행';
     })
