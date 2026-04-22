@@ -1,6 +1,6 @@
 {
   "name": "vulnlab_build",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -9,13 +9,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Vuln0Lab - Web Vulnerability Training Platform",
   "dependencies": {
-    "better-sqlite3": "^12.9.0",
     "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
     "multer": "^2.1.1",
+    "mysql2": "^3.11.3",
     "sanitize-filename": "^1.6.4"
   }
 }
