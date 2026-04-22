@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Vuln0Lab
 
 로컬 전용 웹 취약점 실습 플랫폼 (DVWA 스타일)
@@ -100,3 +101,7 @@ admin 계정으로 로그인 후 `/admin` 접속.
 - **로컬 실습 전용**. 외부에 노출하지 마세요.
 - 모든 취약점은 의도된 것입니다.
 - DB 초기화 시 기존 데이터가 덮어씌워질 수 있습니다.
+=======
+This project is an intentionally vulnerable local training platform for web security education.
+Do not deploy to a public server or production environment.
+>>>>>>> c13ec3eb5c3b4220d1926e7a64cc8785af3e75e7
